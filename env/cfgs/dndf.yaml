@@ -1,0 +1,16 @@
+model_name: dndf
+use_pretrained_params: False
+momentum: 0.9
+weight_decay: 0.0001
+
+num_classes: 2
+data_dir: data
+data_loader_workers: 5
+print_freq: 10
+batch_size: 64
+
+resume: False
+
+p_keep_hidden: 0.5
+n_tree: 5
+n_depth: 5
